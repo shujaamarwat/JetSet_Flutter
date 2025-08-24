@@ -146,10 +146,6 @@ lib/
 - Capabilities: Sign in with Apple
 - Permissions: Location (optional)
 
-#### Web
-- Responsive design for desktop and mobile browsers
-- Progressive Web App (PWA) support
-
 ## Testing
 
 Run the test suite to ensure everything works correctly:
@@ -157,12 +153,6 @@ Run the test suite to ensure everything works correctly:
 ```bash
 # Unit tests
 flutter test
-
-# Integration tests
-flutter test integration_test/
-
-# Widget tests
-flutter test test/widget_test.dart
 ```
 
 ## Building for Production
@@ -186,24 +176,6 @@ flutter build ios --release
 ```bash
 flutter build web --release
 ```
-
-## Deployment
-
-### Google Play Store
-1. Build the app bundle
-2. Create a release in Google Play Console
-3. Upload the AAB file
-4. Submit for review
-
-### Apple App Store
-1. Build the iOS app
-2. Archive in Xcode
-3. Upload to App Store Connect
-4. Submit for review
-
-### Web Deployment
-1. Build the web version
-2. Deploy to your preferred hosting service (Firebase Hosting, Vercel, etc.)
 
 ## Contributing
 
